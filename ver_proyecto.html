@@ -23,8 +23,8 @@
       <li>Encuestas</li>
       <li>Titulación del estudiante</li>
       <li>Inscripción EXENS</li>
-      <li>Proyecto</li>
-      <li>Tesis <a href="registro_tesis.html"></a></li>
+      <li>Proyecto <a href="ver_proyecto.html" class="navegacion">-</a></li>
+      <li>Tesis <a href="ver_tesis.html">-</a></li>
     </ul>
   </nav>
 
@@ -43,18 +43,23 @@
     <table>
       <thead>
         <tr>
-          <th>Matrícula</th>
           <th>Nombre</th>
-          <th>Apellido</th>
-          <th>Carrera</th>
+          <th>Estatus</th>
+          <th>Fecha de inicio</th>
           <th>Fecha de Titulación</th>
-          <th>Nivel</th>
+          <th>Objetivo</th>
+          <th>Actividades realizadas</th>
+          <th>Alumnos participantes</th>
+          <th>Calificacion</th>
+          <th>Proyectos hechos</th>
+          <th>Alumnos</th>
+          <th>Docente</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td colspan="6">
-            <!-- Aquí se carga la tabla con los alumnos desde PHP -->
+          <td colspan="11">
+            <!-- Aquí se carga la tabla -->
             <iframe src="listar_proyecto.php" width="100%" height="300" style="border:none;"></iframe>
           </td>
         </tr>
